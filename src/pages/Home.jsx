@@ -214,7 +214,10 @@ const PaymentscashfreedashboardPage = () => {
                     />
                   }
                 >
+                  <div className="bg-white-A700 bg-opacity-20 rounded-md flex flex-1 flex-col h-15 md:h-auto items-center justify-start max-w-[1128px] px-3 py-3.5 w-full"> 
                   <Text className="text-[13px] w-auto">Available credits</Text>
+                  <Text className="text-[15px] w-auto">578.90</Text>                  
+                  </div>
                 </MenuItem>
               </div>
             </Menu>
