@@ -39,7 +39,7 @@ const PaymentsCashfreeDashboardRowframe2282 = (props) => {
           value={frame2282value}
           onChange={(e) => setFrame2282value(e)}
           className="font-inter p-0 placeholder:text-gray-600 sm:pr-5 text-[15px] text-gray-600 text-left w-full"
-          wrapClassName="bg-gray-100 flex pl-4 pr-[35px] py-2.5 rounded-md w-[35%] md:w-full"
+          wrapClassName="bg-gray-100 flex pl-4 pr-[35px] py-2.5 rounded-md w-[125%] md:w-full"
           prefix={
             <Img
               className="mt-px mb-0.5 cursor-pointer h-4 mr-2"
@@ -62,7 +62,7 @@ const PaymentsCashfreeDashboardRowframe2282 = (props) => {
           }
         ></Input>
         <div className="flex flex-col items-start justify-end w-full">
-          <div className="flex flex-row gap-3 items-start justify-start w-auto">
+          <div className="flex flex-row gap-3 items-start justify-start w-auto self-end">
             <Button className="bg-gray-300 flex h-10 items-center justify-center p-2.5 rounded-[50%] w-10">
               <Img
                 className="h-5"

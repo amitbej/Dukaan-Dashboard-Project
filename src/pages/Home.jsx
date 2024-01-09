@@ -308,9 +308,9 @@ const PaymentscashfreedashboardPage = () => {
                 >
                   Transactions | This Month
                 </Text>
-                <div className="bg-white-A700 flex flex-col items-end justify-start pb-6 pt-3 px-3 rounded-lg shadow-bs w-auto md:w-full">
+                <div className="bg-white-A700 flex flex-col items-start justify-start pb-6 pt-3 px-3 rounded-lg shadow-bs w-auto md:w-full">
                   <div className="flex flex-col gap-3 items-end justify-start w-auto md:w-full">
-                    <div className="flex sm:flex-col flex-row gap-3 items-center justify-between w-full">
+                    <div className="flex sm:flex-col flex-row gap-3 items-start justify-center w-full">
                       <div className="flex sm:flex-1 flex-col items-start justify-start w-[248px] sm:w-full">
                         <Input
                           name="inputsearchfiel"
