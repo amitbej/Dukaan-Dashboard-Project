@@ -135,10 +135,7 @@ ul li a {
   display: flex;
 }
 
-@media only screen and (max-width: 767px) {
-  /* Styles for mobile devices */
-
- 
+@media only screen and (max-width: 767px) { 
   .mobile-menu {
     display: block;
   }
@@ -156,4 +153,22 @@ ul li a {
     padding-right: 10px;
     flex-wrap: wrap;
   }
+}
+
+/* scroll */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6b6b6b;
+  border-radius: 10px;
 }

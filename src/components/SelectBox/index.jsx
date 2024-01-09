@@ -23,7 +23,7 @@ const SelectBox = React.forwardRef(
       color = "",
       ...restProps
     },
-    ref,
+    ref
   ) => {
     const [selectedVal, setSelectedVal] = React.useState(value);
 
@@ -71,8 +71,8 @@ const SelectBox = React.forwardRef(
             option: (provided, state) => ({
               ...provided,
               color: state.isSelected && "#fafafa",
-              backgroundColor: state.isSelected && "#ffffff",
-              "&:hover": { backgroundColor: "#ffffff", color: "#4c4c4c" },
+              backgroundColor: state.isSelected && "#253e5e",
+              "&:hover": { backgroundColor: "#2093c3", color: "#00000" },
             }),
             singleValue: (provided) => ({
               ...provided,
@@ -118,7 +118,7 @@ const SelectBox = React.forwardRef(
         {children}
       </>
     );
-  },
+  }
 );
 
 SelectBox.propTypes = {
